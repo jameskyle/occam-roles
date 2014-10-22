@@ -38,4 +38,5 @@
 # Copyright 2013 AT&T Foundry, unless otherwise noted.
 class role::ops {
   include profile::base
+  include profile::puppet::master
 }
