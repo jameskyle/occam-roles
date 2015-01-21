@@ -39,5 +39,6 @@
 class role::ops {
   include profile::base
   include profile::puppet::puppetdb
+  include profile::hiera::config
   # include profile::puppet::master
 }
